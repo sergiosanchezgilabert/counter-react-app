@@ -2,10 +2,10 @@ const newMessage = () => {
     return 'Sergio'
 }
 
-export const FirstApp = () => {
+export const FirstApp = ({ title, subtitle }) => {
     return (
         <>
-            <h1>First App</h1>
-            <h2>{newMessage()}</h2>
+            <h1>{title}</h1>
+            <h2>Y tengo {subtitle} años</h2>
         </>)
 }
