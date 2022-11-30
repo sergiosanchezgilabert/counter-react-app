@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { FirstApp } from './FirstApp';
+import { CounterApp } from './CounterApp';
 
 import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title="Mi nombre es Sergio" subtitle={26} />
+        <CounterApp value={13}></CounterApp>
     </React.StrictMode>
 )
