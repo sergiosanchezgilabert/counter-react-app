@@ -8,6 +8,6 @@ import './styles.css'
 //yarn add --dev @testing-library/react Testing Components
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp></FirstApp>
+        <FirstApp title='Hola, soy Sergio' subtitle={26}></FirstApp>
     </React.StrictMode>
 )
